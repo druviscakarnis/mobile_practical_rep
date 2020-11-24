@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="textview">This is first application from Group 01</string>
+    <string name="textview2">Ivis Karpovics</string>
+    <string name="textview3">Miks Kalnins</string>
+    <string name="textview4">Druvis Cakarnis</string>
+    <string name="textview5">And application was developed by Ivis Karpovics</string>
+</resources>
