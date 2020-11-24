@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="group_nr">Group 1</string>
+    <string name="member_1">Druvis Čakārnis</string>
+    <string name="member_2">Ivis Karpovičs</string>
+    <string name="member_3">Miks Kalniņš</string>
+    <string name="developed_by">App developed by Druvis Čakārnis</string>
+    <string name="application_by">This is the first application from</string>
+
+</resources>
