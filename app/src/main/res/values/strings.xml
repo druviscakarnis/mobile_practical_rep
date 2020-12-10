@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Practical Work - 2</string>
+    <string name="activity_1">1-st Activity</string>
+    <string name="activity_2">2-nd Activity</string>
+
+    <string name="go_2nd">Go To 2-nd</string>
+    <string name="dialog">Dialog</string>
+
+    <string name="group_nr_dialog">"1 Group's Dialog"</string>
+    <string name="group_nr">Group 1</string>
+    <string name="member_1">Druvis Čakārnis</string>
+    <string name="member_2">Ivis Karpovičs</string>
+    <string name="member_3">Miks Kalniņš</string>
+    <string name="developed_by">App developed by Druvis Čakārnis</string>
+    <string name="application_by">This is the first application from</string>
+
+    <string-array name="group_members_dialog">
+        <item>Druvis Čakārnis</item>
+        <item>Ivis Karpovičs</item>
+        <item>Miks Kalniņš</item>
+
+    </string-array>
+
+</resources>
