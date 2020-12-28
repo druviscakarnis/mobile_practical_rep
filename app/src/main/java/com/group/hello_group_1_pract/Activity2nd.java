@@ -2,14 +2,6 @@ package com.group.hello_group_1_pract;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-<<<<<<< Updated upstream
-import android.app.ActionBar;
-import android.content.Intent;
-import android.os.Bundle;
-
-public class Activity2nd extends AppCompatActivity {
-
-=======
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -19,7 +11,6 @@ import android.widget.Toast;
 
 public class Activity2nd extends AppCompatActivity {
     private final String SHARED_PREFERENCES = "prefs";
->>>>>>> Stashed changes
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,8 +18,6 @@ public class Activity2nd extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("2-nd Activity");
-<<<<<<< Updated upstream
-=======
 
         Button read = findViewById(R.id.load);
         TextView textView = findViewById(R.id.prefs_text);
@@ -46,7 +35,6 @@ public class Activity2nd extends AppCompatActivity {
                 }
             }
         });
->>>>>>> Stashed changes
     }
     @Override
 

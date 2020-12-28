@@ -1,19 +1,5 @@
 package com.group.hello_group_1_pract;
 
-<<<<<<< Updated upstream
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
-
-import com.google.android.material.badge.BadgeUtils;
-
-=======
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
@@ -29,22 +15,10 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
->>>>>>> Stashed changes
 public class MainActivity extends AppCompatActivity {
 
     String selectedCheckBox;
     String temp;
-<<<<<<< Updated upstream
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        Button go2nd = findViewById(R.id.go_to_2nd);
-        Button dialog = findViewById(R.id.go_dialog);
-
-=======
     private Spinner spinner;
     private final String SHARED_PREFERENCES = "prefs";
 
@@ -85,19 +59,12 @@ public class MainActivity extends AppCompatActivity {
                 Log.v("Shared: ", text);
             }
         });
->>>>>>> Stashed changes
         go2nd.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
                 Intent go_to_2nd = new Intent(getApplicationContext(), Activity2nd.class);
                 startActivity(go_to_2nd);
             }
-<<<<<<< Updated upstream
-        });
-
-
-        dialog.setOnClickListener(new View.OnClickListener(){
-=======
 
 
         });
@@ -132,7 +99,6 @@ public class MainActivity extends AppCompatActivity {
 
         /* DIALOGS */
         /*dialog.setOnClickListener(new View.OnClickListener(){
->>>>>>> Stashed changes
             @Override
             public void onClick(View v) {
                 String[] groupMembers = getResources().getStringArray(R.array.group_members_dialog);
@@ -173,48 +139,9 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-<<<<<<< Updated upstream
-
-
-            /*public void onClick(View v) {
-                            AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                            builder.setTitle(R.string.group_nr_dialog);
-                            builder.setCancelable(false);
-
-                            String[] groupMembers = getResources().getStringArray(R.array.group_members_dialog);
-
-                            builder.setMultiChoiceItems(R.array.group_members_dialog, null, new DialogInterface.OnMultiChoiceClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialog, int which, boolean isChecked) {
-
-                                    if(isChecked){
-                                        Toast.makeText(MainActivity.this,groupMembers[which]+" checked", Toast.LENGTH_SHORT).show();
-                                    }else{
-                                        Toast.makeText(MainActivity.this,groupMembers[which]+" unchecked", Toast.LENGTH_SHORT).show();
-
-                                    }
-                                }
-                            });
-
-                            builder.setPositiveButton("OK", null);
-                            builder.setNegativeButton("Close", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialog, int which) {
-                                    Toast.makeText(MainActivity.this,"You closed dialog", Toast.LENGTH_SHORT).show();
-                                    dialog.cancel();
-                                }
-                            });
-                            Button posButton = dialog.getButton
-                            AlertDialog alertDialog = builder.create();
-
-                            alertDialog.show();
-                        }*/
-
-=======
 */
 
 
->>>>>>> Stashed changes
     }
 }
 

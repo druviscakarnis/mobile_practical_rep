@@ -1,26 +1,17 @@
 <resources>
-<<<<<<< Updated upstream
-    <string name="app_name">Practical Work - 2</string>
-    <string name="activity_1">1-st Activity</string>
-    <string name="activity_2">2-nd Activity</string>
-=======
     <string name="app_name">Repository G-1</string>
     <string name="activity_1">1-st Activity</string>
     <string name="activity_2">2-nd Activity</string>
     <string name="shared_prefs_text_view">SharedPreferences Input</string>
     <string name="theme_change">Change theme</string>
->>>>>>> Stashed changes
 
     <string name="go_2nd">Go To 2-nd</string>
     <string name="dialog">Dialog</string>
 
-<<<<<<< Updated upstream
-=======
     <string name="input">Input anything</string>
     <string name="save">Save</string>
     <string name="load">Read preferences</string>
 
->>>>>>> Stashed changes
     <string name="group_nr_dialog">"1 Group's Dialog"</string>
     <string name="group_nr">Group 1</string>
     <string name="member_1">Druvis Čakārnis</string>
@@ -36,13 +27,10 @@
 
     </string-array>
 
-<<<<<<< Updated upstream
-=======
     <string-array name="theme_select">
         <item>DEFAULT (System)</item>
         <item>Dark</item>
         <item>Light</item>
 
     </string-array>
->>>>>>> Stashed changes
 </resources>

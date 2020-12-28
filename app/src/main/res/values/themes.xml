@@ -1,28 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-<<<<<<< Updated upstream
-    <style name="Theme.Hello_Group_1_pract" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/gray_plus</item>
-        <item name="colorPrimaryVariant">@color/gray_plus</item>
-        <item name="colorOnPrimary">@color/white</item>
-=======
     <style name="AppTheme" parent="Theme.AppCompat.DayNight">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/gray_plus</item>
         <item name="colorPrimaryVariant">@color/gray_plus</item>
         <item name="colorOnPrimary">@color/notif_bar</item>
->>>>>>> Stashed changes
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/notif_bar</item>
         <!-- Status bar color. -->
-<<<<<<< Updated upstream
-        <item name="android:statusBarColor">@color/gray</item>
-=======
         <item name="android:statusBarColor">@color/notif_bar</item>
->>>>>>> Stashed changes
         <!-- Customize your theme here. -->
     </style>
 
