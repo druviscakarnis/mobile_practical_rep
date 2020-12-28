@@ -5,8 +5,18 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
+<<<<<<< Updated upstream
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#777777</color>
     <color name="gray_plus">#575656</color>
+=======
+    <color name="notif_bar">#FF000000</color>
+    <color name="text_color">#0B0A0A</color>
+    <color name="text_color_input">#000000</color>
+    <color name="dropdown">#E4E4E4</color>
+    <color name="button_back">#FFFFFFFF</color>
+    <color name="gray">#FFFFFF</color>
+    <color name="gray_plus">#FFFFFF</color>
+>>>>>>> Stashed changes
 </resources>

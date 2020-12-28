@@ -2,10 +2,17 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/theme_select"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< Updated upstream
     tools:context=".MainActivity"
     android:background="@drawable/backgroud">
+=======
+    android:background="@drawable/backgroud"
+    tools:context=".MainActivity">
+    <!--
+>>>>>>> Stashed changes
 
     <TextView
         android:id="@+id/member_1"
@@ -63,6 +70,30 @@
     <TextView
         android:id="@+id/member_3"
         android:layout_width="150dp"
+<<<<<<< Updated upstream
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="150dp"
+        android:text="@string/member_3"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/member_2" />
+
+    <TextView
+        android:id="@+id/acivity_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/group_nr"
+=======
         android:layout_height="wrap_content"
         android:layout_marginStart="200dp"
         android:layout_marginTop="36dp"
@@ -90,6 +121,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.755" />
+-->
+
+    <TextView
+        android:id="@+id/sharedprefs_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shared_prefs_text_view"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/input"
+>>>>>>> Stashed changes
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+<<<<<<< Updated upstream
+        app:layout_constraintVertical_bias="0.755" />
 
     <Button
         android:id="@+id/go_to_2nd"
@@ -114,4 +162,91 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.301" />
+=======
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/change_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/theme_change"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/theme_selector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/go_to_2nd"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/go_to_2nd"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="@string/go_2nd"
+        android:background="@color/button_back"
+        android:textColor="@color/text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421" />
+
+    <Button
+        android:id="@+id/load"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:background="@color/button_back"
+        android:textColor="@color/text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="218dp"
+        android:layout_height="45dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:textColor="@color/text_color_input"
+        android:hint="@string/input"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176" />
+
+    <Spinner
+        android:id="@+id/theme_selector"
+        android:layout_width="235dp"
+        android:layout_height="30dp"
+        android:background="@color/dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/go_to_2nd"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <!--
+        <Button
+            android:id="@+id/go_dialog"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.853"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.301" />
+        -->
+>>>>>>> Stashed changes
 </androidx.constraintlayout.widget.ConstraintLayout>
