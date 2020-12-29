@@ -1,4 +1,4 @@
-package com.group.hello_group_1_pract;
+package com.group.calculator;
 
 import org.junit.Test;
 

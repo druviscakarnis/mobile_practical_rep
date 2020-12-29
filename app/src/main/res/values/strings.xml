@@ -1,36 +1,28 @@
 <resources>
-    <string name="app_name">Repository G-1</string>
-    <string name="activity_1">1-st Activity</string>
-    <string name="activity_2">2-nd Activity</string>
-    <string name="shared_prefs_text_view">SharedPreferences Input</string>
-    <string name="theme_change">Change theme</string>
+    <string name="app_name">Calculator</string>
+    <string name="header">G1 Calculator</string>
 
-    <string name="go_2nd">Go To 2-nd</string>
-    <string name="dialog">Dialog</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
 
-    <string name="input">Input anything</string>
-    <string name="save">Save</string>
-    <string name="load">Read preferences</string>
 
-    <string name="group_nr_dialog">"1 Group's Dialog"</string>
-    <string name="group_nr">Group 1</string>
-    <string name="member_1">Druvis Čakārnis</string>
-    <string name="member_2">Ivis Karpovičs</string>
-    <string name="member_3">Miks Kalniņš</string>
-    <string name="developed_by">App developed by Druvis Čakārnis</string>
-    <string name="application_by">This is the first application from</string>
+    <string name="plus">+</string>
+    <string name="multiply">×</string>
+    <string name="divide">÷</string>
+    <string name="minus">−</string>
+    <string name="equals">=</string>
+    <string name="clear">CLEAR</string>
+    <string name="ms">MS</string>
+    <string name="mr">MR</string>
+    <string name="mc">MC</string>
 
-    <string-array name="group_members_dialog">
-        <item>Druvis Čakārnis</item>
-        <item>Ivis Karpovičs</item>
-        <item>Miks Kalniņš</item>
 
-    </string-array>
-
-    <string-array name="theme_select">
-        <item>DEFAULT (System)</item>
-        <item>Dark</item>
-        <item>Light</item>
-
-    </string-array>
 </resources>

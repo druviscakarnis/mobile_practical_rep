@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.group.hello_group_1_pract"
+        applicationId "com.group.calculator"
         minSdkVersion 27
         targetSdkVersion 30
         versionCode 1
